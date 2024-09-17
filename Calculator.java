@@ -15,7 +15,7 @@ public class Calculator {
         return a * b;
     }
 
-    // Method to divide two numbers
+    // Method to divide two numbers. There is a check for divide by zero
     public double divide(double a, double b) {
         if (b == 0) {
             throw new ArithmeticException("Division by zero is not allowed.");
